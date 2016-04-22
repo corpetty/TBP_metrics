@@ -10,7 +10,7 @@ def get_payouts(max_tip, num_tips, curator_payout_perc, yours_payout_perc) -> pd
     for current_tipper, current_tip in enumerate(tips, 1):
         current_total = sum(tips[:current_tipper])
         current_tip_perc = current_tip / current_total
-        for payer_num in range(0, current_tipper):
+        for payer_num in range(0, current_tipper-1):
             curator_payouts[payer_num].append(tips[payer_num] * curator_payout_perc * current_tip_perc)
         yours_payouts.append(yours_payout_perc*current_tip)
     df = pd.DataFrame([tips, curator_payouts, yours_payouts])
