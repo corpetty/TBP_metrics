@@ -30,7 +30,7 @@ Package Requirements
 
 Installing these can be done using the following command:
 
-`> pip install \<package_name>`
+`> pip install <package_name>`
 
 You can start the IPython notebook by entering:
 
@@ -39,3 +39,5 @@ You can start the IPython notebook by entering:
 Instructions for getting started with Plotly can be found [here](https://plot.ly/python/getting-started/)
 
 More info on Jupyter notebooks can be found [here](https://jupyter-notebook-beginner-guide.readthedocs.org/en/latest/)
+
+A quick tutorial on pandas can be found [here](http://pandas.pydata.org/pandas-docs/stable/10min.html)
