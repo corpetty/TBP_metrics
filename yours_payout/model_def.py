@@ -3,6 +3,8 @@ import pandas as pd
 import numpy as np
 
 
+# TODO: add outliers to tips
+# TODO: change distribution
 def get_payouts(max_tip, num_tips, curator_payout_perc, yours_payout_perc) -> pd.DataFrame:
     tips = np.random.uniform(0.00001, max_tip, num_tips)
     curator_payouts = [list() for _ in range(num_tips)]
