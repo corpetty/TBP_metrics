@@ -1,4 +1,5 @@
 **Payout Model for Yours Network**
+
 The `get_payouts` function generates the data to be plot using the matplotlib and plotly package
 
 Inputs:
