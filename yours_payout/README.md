@@ -37,3 +37,4 @@ You can start the IPython notebook by entering:
 `> jupyter CreateBubblePlot.ipynb ` or `> jupyter notebook` and selecting the correct notebook. 
 
 Instructions for getting started with Plotly can be found [here](https://plot.ly/python/getting-started/)
+More info on Jupyter notebooks can be found [here](https://jupyter-notebook-beginner-guide.readthedocs.org/en/latest/)
