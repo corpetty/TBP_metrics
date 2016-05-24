@@ -2,7 +2,6 @@ __author__ = 'Corey Petty'
 
 import urllib3, json, certifi
 import pandas as pd
-import shutil
 
 def transactions():
     http = urllib3.PoolManager(cert_reqs='CERT_REQUIRED',  # Force certificate check.

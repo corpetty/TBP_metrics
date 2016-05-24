@@ -14,6 +14,7 @@ table.dataframe td, table.dataframe th {
     border: 1px solid white;
     padding-left: 0.25em;
     padding-right: 0.25em;
+    text-align: right;
 }
 table.dataframe th:not(:empty) {
     background-color: #fec;
